@@ -1,0 +1,19 @@
+{
+    "uid": "000001",   //使用者唯一識別（伺服器）
+    //看是要純數字（int）或者是用像是6-8位數的編碼構成。
+    "token": "",       //來自Google/Facebook的授權token
+    "First Name" : "",    //名字
+    "Last Name" : "",         //姓氏
+    "Flag": true,      //表示來自Google或是Facebook的授權
+    "Mail": "",
+    "Phone": "",
+    "Current_Stat": "Driver",      //當前身份：司機(Driver)或是乘客(Passenger)
+    "Car": [
+        "Kymco",    //廠牌
+        "",   //車型
+        "",      //車色
+        ""   //車號
+    ],
+    "Evaluate":[4.7,200]  //評價分數（平均值）,建立在多少使用者的回覆（總數量）
+
+}

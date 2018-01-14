@@ -1,0 +1,25 @@
+//共乘資料交換
+{
+    "Transfer_id":"00000001",   //Server端生成的唯一識別ID
+    "Request_User_id": "0000001",   //發出請求的乘客ID
+    "Driver_User_id": "0000002",    //司機的ID
+    "Free_ride_Position":       //上車座標
+    [
+        24.179338,  //緯度
+        120.994377  //經度
+    ],  //供Google Map抓取地點用的
+    "Dest_Position":            //下車座標
+    [
+        24.188392,
+        120.981230
+    ],
+    "Request_time":
+    [
+        "20171201", //YYYYMMDD，請嚴格遵守此格式
+        "1300"      //24小時制,HHMM(不足的部分請補0)
+    ],
+    "Status": "SEND",
+    //只有以下狀態: 
+    "Request_Note":"",      //乘客補充的內容
+    "Driver_Reject_Note":"" //車主拒絕的理由
+}
